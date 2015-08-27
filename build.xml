@@ -14,9 +14,9 @@
     <path refid="classpath.base" />
   </path>
 
-  <target name="test" depends="run,jar.apllication" />
+  <target name="test" depends="run,createjar" />
 
-<target name="jar.application">
+<target name="createjar">
   <jar destfile="${file.jar}" basedir="${main.build.dir}"></jar>
 </target>
 
