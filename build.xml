@@ -17,7 +17,7 @@
   <target name="test" depends="run, clean" />
 <target name="deps" depends="jar.application" />
 <target name="jar.application">
-  <jar destfile="test.jar" basebir="${main.build.dir}"></jar>
+  <jar destfile="test.jar" basedir="${main.build.dir}"></jar>
 </target>
 
   <target name="compile">
