@@ -4,7 +4,7 @@
   <property name="main.src.dir" value="src" />
   <property name="test.build.dir" value="build/test" />
   <property name="test.src.dir" value="test" />
-
+<property name="dist" value="dist/deploy.jar" />
   <path id="classpath.base" />
 
   <path id="classpath.test">
@@ -14,10 +14,10 @@
     <path refid="classpath.base" />
   </path>
 
-  <target name="test" depends="run" />
-<target name="deps" depends="jar.application" />
+  <target name="test" depends="run,jar.apllication" />
+
 <target name="jar.application">
-  <jar destfile="test.jar" basedir="${main.build.dir}"></jar>
+  <jar destfile="${file.jar}" basedir="${main.build.dir}"></jar>
 </target>
 
   <target name="compile">
