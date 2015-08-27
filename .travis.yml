@@ -6,7 +6,7 @@ jdk:
 deploy: 
  edge: true
  skip_cleanup: true
- sudo: true 
+ sudo: true
  provider: cloudfoundry
  username: karthi3636@gmail.com
  password: test1234
