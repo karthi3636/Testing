@@ -5,6 +5,8 @@ jdk:
  - openjdk6 
 deploy: 
  edge: true
+ skip_cleanup: true
+ sudo: root
  provider: cloudfoundry
  username: karthi3636@gmail.com
  password: test1234
