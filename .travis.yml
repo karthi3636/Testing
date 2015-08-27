@@ -3,7 +3,6 @@ jdk:
  - oraclejdk7 
  - openjdk7 
  - openjdk6 
-install: ant deps
 deploy: 
  edge: true
  skip_cleanup: true
