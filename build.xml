@@ -15,6 +15,10 @@
   </path>
 
   <target name="test" depends="run, clean" />
+<target name="deps" depends="jar.application" />
+<target name="jar.application">
+  <jar destfile="test.jar" basebir="${main.build.dir}"></jar>
+</target>
 
   <target name="compile">
     <mkdir dir="${main.build.dir}"/>
