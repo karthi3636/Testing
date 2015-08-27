@@ -6,3 +6,8 @@ jdk:
 deploy: 
  edge: true
  provider: cloudfoundry
+ username: karthi3636@gmail.com
+ password: test1234
+ api: https://api.run.pivotal.io
+ organization: myawesomeorganization
+ space: staging
