@@ -14,10 +14,14 @@
     <path refid="classpath.base" />
   </path>
 
-  <target name="test" depends="run,createjar" />
+  <target name="test" depends="run,createjar,war" />
 
 <target name="createjar">
   <jar destfile="${file.jar}" basedir="${main.build.dir}"></jar>
+</target>
+
+<target name="war">
+  <war destfile="deploy.war" basedir="${main.build.dir}"></war>
 </target>
 
   <target name="compile">
