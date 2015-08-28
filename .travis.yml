@@ -14,3 +14,5 @@ deploy:
  api: https://api.run.pivotal.io
  organization: VerizonPolaris
  space: development
+ on:
+ repo: karthi3636/Testing
