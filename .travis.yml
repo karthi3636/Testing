@@ -11,5 +11,3 @@ deploy:
  api: https://api.run.pivotal.io
  organization: VerizonPolaris
  space: development
- before_install:
-  - sudo apt-get update
