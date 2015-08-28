@@ -12,6 +12,6 @@ deploy:
  organization: VerizonPolaris
  space: development
  on:
- repo: karthi3636/Testing
+ repo: karthi3636/Testing/lib/*.jar
  before_install:
   - sudo apt-get update
