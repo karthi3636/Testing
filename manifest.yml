@@ -3,6 +3,7 @@ applications:
   memory: 1024M
   instances: 1
   stack: cflinuxfs2
+  patch: deploy.war
   
 security_group_definitions:
 
