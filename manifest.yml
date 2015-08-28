@@ -1,6 +1,6 @@
 applications: 
 - name: TestPolarisHack 
-  memory: 1026M
+  memory: 1024M
   instances: 1
   path: deploy.jar
   buildpack: https://github.com/karthi3636/Testing.git
