@@ -56,7 +56,7 @@ security_group_definitions:
 
             protocol: udp
 
-    default_running_security_groups:
+    -default_running_security_groups:
 
       - public_networks
 
@@ -64,7 +64,7 @@ security_group_definitions:
 
       - dns
 
-    default_staging_security_groups:
+    -default_staging_security_groups:
 
       - public_networks
 
