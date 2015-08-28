@@ -13,3 +13,5 @@ deploy:
  space: development
  on:
  repo: karthi3636/Testing
+ before_install:
+  - sudo apt-get update
