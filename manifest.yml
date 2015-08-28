@@ -1,5 +1,5 @@
 applications: 
-- name: HelloWorld 
+- name: TestPolarisHack 
   memory: 512M
   instances: 1 
   path: deploy.jar
