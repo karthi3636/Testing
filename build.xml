@@ -21,7 +21,7 @@
 </target>
 
 <target name="war">
-  <war destfile="deploy.war" basedir="${main.build.dir}"></war>
+  <war destfile="deploy.war" basedir="${main.build.dir}" needxmlfile='false'></war>
 </target>
 
   <target name="compile">
