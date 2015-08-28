@@ -2,7 +2,6 @@ applications:
 - name: TestPolarisHack 
   memory: 1024M
   instances: 1
-  buildpack: https://github.com/karthi3636/Testing.git
   stack: cflinuxfs2
   
 security_group_definitions:
