@@ -55,19 +55,3 @@ security_group_definitions:
             ports: '53'
 
             protocol: udp
-
-    -default_running_security_groups:
-
-      - public_networks
-
-      - internal_network      
-
-      - dns
-
-    -default_staging_security_groups:
-
-      - public_networks
-
-      - internal_network
-
-      - dns
