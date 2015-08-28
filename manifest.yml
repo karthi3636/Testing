@@ -1,6 +1,6 @@
 applications: 
 - name: java-main-application 
-  memory: 512M 
+  memory: 512M
   instances: 1 
   path: deploy.jar
   buildpack: https://github.com/karthi3636/Testing.git 
